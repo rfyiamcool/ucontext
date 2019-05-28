@@ -8,7 +8,6 @@ import (
 type Context struct {
 	context.Context
 	Store map[string]interface{}
-
 	// more...
 }
 
